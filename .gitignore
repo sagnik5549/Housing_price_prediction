@@ -1,13 +1,18 @@
-# Python
-__pycache__/
-*.pyc
-
 # Jupyter
 .ipynb_checkpoints/
 
+# Anaconda
+anaconda_projects/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
 # Virtual environments
 venv/
-.env/
+env/
+.venv/
 
 # VS Code
 .vscode/
@@ -15,6 +20,3 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Large datasets (optional)
-*.zip
