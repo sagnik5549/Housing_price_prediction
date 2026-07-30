@@ -3,6 +3,8 @@ __pycache__/
 *.pyc
 
 # Jupyter
+catboost_info/
+anaconda_projects/
 .ipynb_checkpoints/
 
 # Virtual environments
