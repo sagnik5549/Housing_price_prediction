@@ -1,24 +1,53 @@
-# Jupyter
-catboost_info/
-anaconda_projects/
-.ipynb_checkpoints/
-
-# Anaconda
-anaconda_projects/
-
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
+*.so
 
-# Virtual environments
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
 venv/
 env/
-.venv/
+ENV/
 
-# VS Code
+# Anaconda
+anaconda_projects/
+
+# CatBoost
+catboost_info/
+
+# IDE
 .vscode/
+.idea/
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Model Files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Kaggle API
+kaggle.json
